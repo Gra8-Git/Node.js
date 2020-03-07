@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const dbconn = process.env.MONGO_URI;
 const connectDB = async () => {
   const conn = await mongoose.connect(
-    'mongodb+srv://Gra8:2PacGray1986@traversymedia-yljqp.mongodb.net/test?retryWrites=true&w=majority',
+    'mongodb+srv:mongoclaset connect string',
     {
       useNewUrlParser: true,
       useCreateIndex: true,
